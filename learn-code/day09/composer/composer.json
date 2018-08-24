@@ -1,0 +1,23 @@
+{	
+    "name": "gaohan/test",
+    "description": "test backage",
+    "version": "1.2.0",
+    "type": "library",
+    "require": {
+        "monolog/monolog": "1.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+	    "Aci\\": "APP/",
+	    "Root\\": "Root/",
+	    "Sys\\": "Sys/",
+	    "Program\\": "Program/"
+	},
+	"classmap": [
+	    "Program"
+	],
+	"files": [
+	    "Program/function.php"
+	]
+    }
+}

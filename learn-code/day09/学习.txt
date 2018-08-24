@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Monolog\\": "src/",	--->命名空间:根目录
+            "Vendor\\Namespace\\": ""
+        }
+    }
+}
+
+关于PSR-4的学习
+	命名空间要与文件路径一致  namespace APP\Foo;
+	composer.json中   命名空间要与根目录对应 "APP\\": "APP/",
+
+	require 'vendor/autoload.php';----->要与.json文件在同一文件夹下

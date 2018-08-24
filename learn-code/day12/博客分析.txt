@@ -1,0 +1,20 @@
+建表:	前缀:blog_
+
+
+	用户表 blog_users
+
+
+	分类表 blog_categories
+		外键:user_id
+
+	标签表 blog_tags
+		外键:user_id
+
+	文章表 blog_articles
+		外键:user_id
+		外键:category_id
+
+文章标签对应关系的中间表:
+	blog_article_tag_map
+	article_id
+	tag_id

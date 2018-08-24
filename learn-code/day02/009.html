@@ -1,0 +1,24 @@
+<html>
+<head>
+	<meta  charset="utf-8">
+	<title>This is a simple HTML form!</title>
+</head>
+<body>
+    <form action="009.php" method="POST">
+       name:<input type="text" name="username"><br>
+       select some products: <br>
+		<select name="products[]" size=6 multiple>
+			<option value="c++">c++</option>
+			<option value="c#">c#</option>
+			<option value="php">php</option>
+			<option value="Python">Python</option>
+			<option value="lua">lua</option>
+			<option value="JavaScript">JavaScript</option>
+		</select><br />
+       Message:<br>
+       <textarea name="message" rows="5" cols="40"></textarea><br>
+       <input type="submit" value="ok">
+    </form>
+</body>
+</html>
+
